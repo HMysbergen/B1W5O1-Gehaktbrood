@@ -1,0 +1,90 @@
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+html {
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0 auto;
+margin-right: 0 auto;	
+}
+
+#Title {
+font-size: 36px;
+line-height: 36px;
+}
+
+#txt {
+font-size: 24px;
+line-height: 32px;
+text-align: left;
+}
+
+
+.text {
+font-size: 20px;
+line-height: 26px;	
+}
+
+.Header {
+font-size: 32px;
+line-height: 32px;
+margin: 10px;
+}
+
+.content {
+margin: 40px;	
+}
+
+#Ingredients li {
+margin: 10px;
+font-size: 20px;	
+}
+
+
+#border {
+margin: 0 auto;
+width: 640px;
+}
+	
+#tip {
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-top: 15px;	
+width: 800px;
+border: 0px solid;
+background-color:#def6ed;
+margin: 20px;	
+}
+
+.img {
+margin: 20px;	
+}	
+
+#Preperation li {
+margin: 20px;
+font-size: 20px;	
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: none;
+background-color: red ;	
+}
+
+ li {
+float: left;	
+}
+
+.bar   {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+float: left;
+}
+
