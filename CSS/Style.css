@@ -1,5 +1,6 @@
 body {
 font-family: 'Roboto', sans-serif;
+background-image:url("..Images/Menu.jpg");
 }
 
 html {
@@ -36,7 +37,7 @@ margin: 10px;
 margin: 40px;	
 }
 
-#Ingredients li {
+#Ingredients {
 margin: 10px;
 font-size: 20px;	
 }
@@ -62,29 +63,39 @@ margin: 20px;
 margin: 20px;	
 }	
 
-#Preperation li {
+#Preperation {
 margin: 20px;
 font-size: 20px;	
 }
 
-ul {
+
+.nav {
 list-style-type: none;
 margin: 0;
 padding: 0;
-overflow: none;
-background-color: red ;	
+overflow: hidden;
+background-color: #ff9900;	
 }
 
- li {
-float: left;	
-}
 
-.bar   {
+.bar {
 display: block;
 color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 float: left;
+font-size: 20px;
 }
 
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;	
+}
+
+li a:hover {
+background-color: #cc6600;	
+}	
