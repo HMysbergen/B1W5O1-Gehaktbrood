@@ -74,7 +74,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #ccffcc;	
+background-color: #F0FFF0;	
 }
 
 
@@ -97,6 +97,29 @@ text-decoration: none;
 }
 
 li a:hover {
-background-color: green;	
-}	
+background-color: #98FB98;	
+}
 
+#voor {
+float: left;
+margin: 20px;
+width: 400px;
+height: 225px;
+border-radius: 20px;	
+}
+
+#hoofd {
+float: left;
+margin: 20px;
+width: 400px;
+height: 250px;
+border-radius: 20px;	
+}
+
+#na {
+float: left;
+margin: 20px;
+width: 400px;
+height: 250px;
+border-radius: 20px;	
+}
